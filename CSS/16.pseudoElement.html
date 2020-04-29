@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Pseudo Element</title>
+    <style>
+        .para1{
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            line-height: 1.5em;
+        }
+        .para1::first-line{
+            color: red;
+        }
+        .para1::first-letter{
+            color: blueviolet;
+        }
+        .para1::after{
+           content: url(/images/logo.png);
+        }
+        .para1::before{
+         content:    "Paragraf Başlığı";
+        }
+    </style>
+</head>
+
+<body>
+    <p class="para1">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente alias unde quam recusandae repellat sed,
+        voluptatem et. Voluptate quos beatae eaque ut natus possimus impedit voluptatum et deleniti, harum voluptates
+        mollitia officiis non dolores quibusdam! Expedita tempore eveniet nemo nihil quidem natus non deserunt quasi
+        sint totam exercitationem, doloremque vero porro maiores nam cumque accusamus quia quo corporis? Molestias, unde
+        nam veritatis magni quidem, suscipit, quasi accusantium placeat facilis similique natus cupiditate repellat
+        nisi. Nulla, nihil rem dolores debitis officiis cupiditate atque, porro aliquam voluptatibus aut recusandae
+        voluptates quasi odio quo voluptatem tenetur nam aspernatur itaque animi qui modi. Cum libero obcaecati, quod
+        soluta voluptates rerum quasi eum magnam eaque labore commodi ipsum esse iusto natus aliquam vero, placeat ipsa
+        omnis distinctio. Laudantium doloribus quos obcaecati illo ab exercitationem perspiciatis dolorem, voluptates
+        praesentium adipisci ut omnis, error numquam perferendis quaerat mollitia! Corrupti nemo laboriosam aperiam
+        beatae nesciunt voluptatum! Repellendus recusandae fugit magni quidem quasi laboriosam ipsa voluptatum.
+        Consequatur sequi labore voluptates vel dicta eaque, ex vero corporis aliquid. Non error tempore unde facere
+        saepe eum quisquam voluptate eaque recusandae repellendus placeat aperiam voluptas corporis aspernatur magni
+        omnis asperiores, impedit esse deserunt, quos, autem harum. Magnam, explicabo. Quae veniam eligendi, esse
+        eveniet officiis in ea assumenda sint mollitia recusandae laborum cupiditate? Ipsa quae magni sunt omnis rem
+        ipsam nostrum mollitia neque enim, qui ratione vero officia ducimus doloribus autem nisi dicta cupiditate
+        
+    </p>
+</body>
+
+</html>
