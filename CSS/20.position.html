@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Position</title>
+    <style>
+        .red{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            top: 20px;
+            left: 20px;
+            z-index: 1;
+            
+        }
+        .blue{
+            width: 100px;
+            height: 100px;
+            background-color:blue;
+            position: relative;
+            left: 10px;
+            top: 10px;
+            z-index: -1;  /* z ekseninde boyutu verir */
+        }
+       /*  .fixed-topbar{
+           width: 50%;
+            padding: 20px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            position: fixed;
+            bottom: 20px;  } */
+            
+       
+    </style>
+</head>
+<body>
+    <div class="red"></div>
+    <div class="blue"></div>
+  <!-- <div class="fixed-topbar">Udemy</div> -->
+</body>
+</html>
